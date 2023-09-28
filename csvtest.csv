@@ -1,1 +1,3 @@
 one,two,three
+
+awk -F, '{print $1 }' csvtest.csv to change the default space to comma
