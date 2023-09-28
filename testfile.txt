@@ -1,0 +1,2 @@
+one two three
+//awk '{print $2}' testfile.txt is used to segment a file or command
