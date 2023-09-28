@@ -1,0 +1,59 @@
+    1  ls
+    2  mkdir Scripts
+    3  cd Scripts/
+    4  su
+    5  ./VBoxLinuxAdditions.run 
+    6  su ./VBoxLinuxAdditions.run 
+    7  su
+    8  cd Scripts/
+    9  ls
+   10  nano arrays.ts
+   11  ls
+   12  nano arrays.sh
+   13  chmod +x arrays.sh 
+   14  ls
+   15  ./arrays.sh 
+   16  nano arrays.sh
+   17  nano forloop.sh
+   18  chmod +x forloop.sh 
+   19  ./forloop.sh 
+   20  nano forloop.sh
+   21  ./forloop.sh 
+   22  cat forloop.sh >> forloopwordcount.sh
+   23  cat forloopwordcount.sh 
+   24  rm forloop.sh
+   25  nano firstfunctions.sh
+   26  chmod +x firstfunctions.sh 
+   27  ./firstfunctions.sh 
+   28  nano firstfunctions.sh 
+   29  ./firstfunctions.sh 
+   30  nano functionposargu.sh
+   31  chmod +x functionposargu.sh 
+   32  ./functionposargu.sh hi
+   33  nano functionposargu.sh
+   34  ./functionposargu.sh hi
+   35  nano exit.sh
+   36  chmod +x exit.sh 
+   37  ./exit.sh 
+   38  nano exit.sh
+   39  chmod +x exit.sh 
+   40  ./exit.sh 
+   41  ./exit.sh hi
+   42  ./exit.sh vboxuser
+   43  chmod +x exit.sh 
+   44  nano exit.sh
+   45  echo one two three > testfile.txt
+   46  awk '{print $1}' testfile.txtx
+   47  awk '{print $1}' testfile.txt
+   48  awk '{print $2}' testfile.txt
+   49  nano testfile.txt
+   50  nano csvtest.csv
+   51  awk -F ,'{print $1 }' csvtest.csv 
+   52  awk -F, '{print $1 }' csvtest.csv 
+   53  nano  csvtest.csv 
+   54  echo "Just get this world: Hello" | awk '{print $5}'
+   55  echo "Just get this world: Hello" | awk -F: '{print $2}' | cut -c2-
+   56  nano sedtest.txt
+   57  sed 's/fly/grasshopper/g' sedtest.txt 
+   58  sed -i.ORIGINAL 's/fly/grasshopper/g' sedtest.txt
+   59  history >> Commands.txt
